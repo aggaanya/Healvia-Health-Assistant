@@ -1,0 +1,14 @@
+this account page handles ::
+
+dto/account
+
+Handles Account Settings page
+
+From your UI screenshots this includes:
+
+Profile info
+Password change
+Notifications
+Privacy settings
+Delete account
+Data export
