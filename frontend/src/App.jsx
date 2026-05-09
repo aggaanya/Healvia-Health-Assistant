@@ -8,6 +8,7 @@ import Assistant from './pages/Assistant';
 import Calendar from './pages/Calendar';
 import Progress from './pages/Progress';
 import Register from './pages/Register';
+import Profile from './pages/Profile'
 import { AuthProvider } from "./context/AuthContext";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
             <Route path="/Calendar" element={<Calendar />} />
             <Route path="/Progress" element={<Progress />} />
             <Route path="/Register" element={<Register />} />
+            <Route path="/Profile" element={<Profile />} />
           </Routes>
         </div>
 

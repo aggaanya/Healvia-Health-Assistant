@@ -70,7 +70,6 @@ export default function AuthPage() {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Form submitted:', formData);
-    // Add your authentication logic here
   };
 
   return (
@@ -317,3 +316,5 @@ export default function AuthPage() {
     </div>
   );
 }
+
+export default AuthPage;
