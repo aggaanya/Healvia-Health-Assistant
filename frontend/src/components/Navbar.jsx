@@ -14,7 +14,8 @@ const Navbar = () => {
     { href: '/Locker', label: 'Digital Locker' },
     { href: '/Assistant', label: 'AI Assistant' },
     { href: '/Calendar', label: 'Calendar' },
-    { href: '/Progress', label: 'Progress' }
+    { href: '/Progress', label: 'Progress' },
+    { href: '/Profile', label: 'Profile' }
   ];
 ;
   const handleSignUpClick = () => {
